@@ -1,0 +1,108 @@
+.navbar{
+    text-align: center;
+}
+
+#menu-toggle{
+    background-color: #424242;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    bottom: -2px;
+    background-color: transparent;
+    color: #b3eef7;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:active{
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a{
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none !important;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+#Quem_Sou{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: -60px;
+    background-image: url("../_img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color:#464646;
+}
+
+#nomeG{
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+#Curriculum{
+    width: 100%;
+    min-height: 100vh;
+    margin-bottom: 60px;
+    padding-top: 10%;
+}
+
+#Contato{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: -60px;
+    background-image: url("../_img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color:#464646;
+}
+
+.formulario {
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 5%;
+}
+
+.formulario label{
+    color: white;
+}
+
+@media only screen and (max-width: 767px) {
+    .formulario {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+.formulario input, textarea{
+    max-width: 500px;
+}
+
+.jumbotron p{
+    color: honeydew;
+    text-shadow: 5px 5px 10px #000;
+    text-align: center;
+}
+
+h1{
+    font-size: 22px;
+    text-align: left;
+}
+
+h2{
+    font-size: 16px;
+    text-align: left;
+}
+
+p{
+    font-size: 14px;
+    text-align: left;
+}
